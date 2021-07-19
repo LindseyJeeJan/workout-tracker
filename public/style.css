@@ -10,13 +10,13 @@ html,
 body,
 .wrapper {
   height: 100%;
-  background-color: #000;
+  background-color: #ddd;
   cursor: default;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
-  color: #fff;
+  color: #666;
 }
 
 nav {
@@ -51,7 +51,7 @@ header {
   padding: 4%;
   text-align: center;
   font-size: 1.5rem;
-  margin-bottom: 7%;
+  margin-bottom: 2%;
 }
 
 select {
