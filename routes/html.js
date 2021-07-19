@@ -1,4 +1,4 @@
-//Import path
+const router = require("express").Router();
 const path = require("path");
 
 // GET Request : Fitness Tracker Home page
