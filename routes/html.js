@@ -1,6 +1,3 @@
-// Import Express router
-const router = require("express").Router();
-
 //Import path
 const path = require("path");
 
