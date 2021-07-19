@@ -12,8 +12,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://ljjlauria:base4D8t8@cluster1.rmk5q.mongodb.net/workout?retryWrites=true&w=majority", { 
-  useNewUrlParser: true });
+mongoose.connect(process.env.MONGODB_URI, { 
+  useNewUrlParser: true,
+  useUnifiedTopology: true 
+});
 
 // routes
 app.use(require("./routes/api.js"));
