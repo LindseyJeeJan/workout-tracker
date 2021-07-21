@@ -17,7 +17,7 @@
   [Install Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
   ## Usage
-  [Link to Heroku Deployment] (https://workout-tracker-ll.herokuapp.com/)
+  [Link to Heroku Deployment](https://workout-tracker-ll.herokuapp.com/)
   Click on the New Workout button on the landing page to record a new workout. Navigate to the Dashboard to see charts of previous workouts over time.
 
   :camera: 
